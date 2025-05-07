@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home | siakademik</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        header{
+            background-color: rgb(94, 94, 255);
+            padding: 20px;
+            color: white;
+        }
+        header .logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        
+        header .logo img {
+            width: 80px;
+            height: auto;
+        }
+        
+        header .logo .nama {
+            margin-left: 15px;
+        }
+        
+        header .logo .nama h2 {
+            color: white;
+            font-size: 1.5rem;
+        }
+        
+        header .logo .nama p {
+            font-size: 11px;
+            margin-top: 5px;
+        }
+
+        nav{
+            display: flex;
+            justify-content: center;
+        }
+        nav a{
+            text-decoration: none;
+            color: rgb(94, 94, 255);
+        }
+
+        nav ul{
+            display: flex;
+            list-style: none;
+            gap: 20px;
+            padding: 20px;
+        }
+        nav ul li{
+            border: 1px solid rgb(94, 94, 255);
+            padding: 2px 20px;
+            border-radius: 5px;
+        }
+
+        nav ul li:hover{
+            background-color: rgb(94, 94, 255);
+            color: white;
+            transition: 0.3s;
+        }
+
+        nav ul .active{
+            background-color: rgb(94, 94, 255);
+            color: white;
+        }
+
+
+    </style>
+  </head>
+  <body>
+    <header>
+        <div class="logo">
+            <img src="asset/images/logo/ht.png" alt="logo SMK Hang Tuah 1">
+            <div class="nama">
+                <h2>SMK Hang Tuah 1</h2>
+                <p>Nasional, Religius, Kompeten, Mandiri, Juara</p>
+            </div>
+        </div>
+    </header>
+    <hr>
+
+    <nav>
+      <ul>
+        <a href="#"><li class="active">Home</li></a>
+        <a href=""><li>Profil</li></a>
+        <a href=""><li>Jadwal</li></a>
+        <a href=""><li >Rapor</li></a>
+      </ul>
+    </nav>
+    <hr>
+    <main>
+        <div class="card">
+            <div class="cardo">
+                <h2></h2>
+            </div>
+        </div>
+    </main>
+  </body>
+</html>

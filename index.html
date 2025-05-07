@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="asset/icon/css/all.css" />
+    <title>Loading...</title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #ffffff;
+        gap: 50px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+      img{
+        width: 200px;
+      }
+      i{
+        font-size: 45px;
+      }
+      span{
+        font-size: 20px;
+        font-weight: 500;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="asset/images/logo/ht.png" alt="" />
+    <i class="fas fa-spinner fa-spin"></i>
+    <span>Memuat Halaman Sistem Akademik....</span>
+    <script>
+        setTimeout(() => {
+            window.location.href = "login.html"; 
+        }, 3000);
+    </script>
+  </body>
+</html>
